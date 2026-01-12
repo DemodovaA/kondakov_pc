@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+ul, ol{
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body{
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: bisque;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid red;
+}
+
+.header {
+    position: fixed;
+    width: 100%;
+    inset-block-start: 0;
+    inset-inline-start: 0;
+    padding: 1.5rem;
+    background-color: aliceblue;
+    z-index: 100;
+}
+
+.header__list {
+    display: flex;
+    gap: 1rem;
+}
+
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-wrapper {
+    margin-block-start: 120px;
+    margin-block-end: 42px;
+}
+
+.cards {
+    margin-block-end: 2rem;
+}
+
+.cards__list {
+    z-index: -10;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(5, minmax(100px, 150px));
+  gap: 1rem;
+}
+
+/* .cards__item {
+    box-shadow: 0 0 5px 0 rgba(15, 0, 0, 0.5);
+    border-radius: 10px;
+} */
+
+.cards_card{
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-image: url(https://www.dragoart.ru/wp-content/uploads/2011/03/how-to-draw-perry-the-platypus-from-phineas-and-ferb-tutorial-drawing.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* background-image: linear-gradient(135deg, blue, yellow); */
+    background-color: aliceblue;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.large {
+    grid-column: span 2;
+    grid-row: span 3;
+}
+
+.medium {
+    grid-row: span 2;
+}
