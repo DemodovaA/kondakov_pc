@@ -1,0 +1,6 @@
+.catalog__card-image {
+    width: 100%;
+    height: clamp(150px,  25vw, 200px);
+    object-fit: cover;
+    
+}

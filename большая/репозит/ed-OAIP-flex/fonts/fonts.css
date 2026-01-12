@@ -1,0 +1,28 @@
+@font-face {
+  src: local("Roboto"), local("Roboto-Regular"),
+    url("./Roboto-Regular.woff2") format("woff2"),
+    url("./Roboto-Regular.ttf") format("truetype");
+  font-family: "Roboto-Regular";
+  font-weight: 400;
+  font-display: swap;
+}
+
+/* 500 - Medium */
+
+@font-face {
+  src: local("Roboto"), local("Roboto-Medium"),
+    url("./Roboto-Medium.woff2") format("woff2"),
+    url("./Roboto-Medium.ttf") format("truetype");
+  font-family: "Roboto-Medium";
+  font-weight: 500;
+  font-display: swap;
+}
+/* 700 - Bold */
+
+@font-face {
+  src: local("Roboto"), local("Roboto-Bold"),
+    url("./Roboto-Bold.woff2") format("woff2"),
+    url("./Roboto-Bold.ttf") format("truetype");
+  font-family: "Roboto-Bold";
+  font-weight: 700;
+  font-display: swap;

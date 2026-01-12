@@ -1,0 +1,28 @@
+.container {
+    display: flex;
+    /* padding: var(--padding-base); */
+    margin-left: var(--margin-base);
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    width: 1200px;
+    height: 52px;
+}
+
+
+.container-list {
+    display: flex;
+    flex-direction: row;
+    gap: var(--gap-base);
+}
+
+.contact-button {
+    width: 100px;
+    height: 52px;
+    background-color: #1664EA;
+    justify-content: center;
+    color: white;
+    border-radius: 5px;
+    padding: 14px;
+    --gap-base: 10px;
+}

@@ -1,0 +1,33 @@
+/*light*/
+
+:root {
+   --main-light-color: #FFFFFF;
+   --main-text-color: #1B1B1B ;
+   --main-accent-color: #1664EA ;
+   --main-add-color: #FFDA74;
+   --main-black-color: #252525; 
+   --palka: #1B1B1B ;
+   --main-big-text-color: #1B1B1B ;
+   
+  --padding-base: 1.5rem;
+  --margin-base: 120px;
+
+  --margin-t-b: 80px;
+
+  --font-family-base: "Roboto", sans-serif;
+  --font-size-base: 1.2rem;
+  --gap-base: 10px;
+  --opacity_text_size: 20px;
+  --big_text: 48px;
+}
+
+/* dark */
+
+[data-theme="Dark"] { 
+   --main-light-color: #303030;
+   --main-text-color: #E1E1E1;
+   --main-add-color: #252525;
+   --palka: #1664EA  ;
+   --main-big-text-color: #1664EA  ;
+}
+  

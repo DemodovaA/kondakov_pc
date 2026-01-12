@@ -1,0 +1,43 @@
+.flex-container{
+    display: flex;
+    /* align-items: stretch; */
+    padding: 1rem;
+    gap: 1rem;
+    border: 2px solid red;
+}
+
+.flex-item {
+    background-color: rgb(71, 71, 214);
+    width: 100px;
+    color: white;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+/* .grow1{
+    flex-grow: 1;
+}
+
+.grow2{
+    flex-grow: 2;
+}
+
+.grow3{
+    flex-grow: 3;
+} */
+
+/* .shrink{
+    background-color: blueviolet;
+    flex-shrink: 2;
+} */
+
+.basis{
+    background-color: greenyellow;
+    flex-basis: 200px;
+}
+
+@media (max-width: 600px){
+    .flex-container{
+        flex-direction: column;
+    }
+}

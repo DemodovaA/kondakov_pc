@@ -1,0 +1,5 @@
+.catalog__catd-title {
+    font-size: clamp(1.125rem, 2.5vw, 1.25rem);
+    margin-block-end: .5rem;
+}
+

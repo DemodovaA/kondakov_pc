@@ -1,0 +1,92 @@
+.Skills{
+    height: 637px;
+    background-color: var(--main-add-color);
+    color: var(--main-text-color);
+    margin-bottom: var(--margin-t-b);
+}
+
+.skill_block {
+    margin-left: var(--margin-base);
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.skill_opacity{
+    margin-top: var(--margin-t-b);
+    font-family: "Inter-Regular";
+    font-size: var(--opacity_text_size);
+    text-transform:  uppercase;
+    letter-spacing: 2px;
+    opacity: .7;
+}
+
+.big_skill {
+    font-family: "Inter-Bold";
+    font-size: var(--big_text);
+}
+
+.skill_text {
+    font-family: "Inter-Regular";
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+.bottom_skill {
+    margin-left: var(--margin-base);
+    width: 1200px;
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction: row;
+}
+
+.list_skill {
+    width: 307px;
+    height: 225px;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 10px;
+    margin-right: 63px;
+}
+
+.list_skill li {
+    font-family: "Inter-Regular";
+    font-size: 12px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    border: 0;
+    background-color: black;
+    color: white;
+}
+
+.Palka_much h2 {
+    font-family: "Inter-Bold";
+    margin-bottom: 40px;
+}
+
+.Palka_much li {
+    position: relative;
+    width: 400px;
+    height: 5px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.palka{
+    position: relative;
+    height: 100%;
+    background-color: black;
+    border-radius: 10px;
+    transition: width 0.3s ease;
+}

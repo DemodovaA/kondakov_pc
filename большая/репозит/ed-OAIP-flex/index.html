@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ru" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./pages/index.css" />
+    <title>Интернет-магазин гаджетов</title>
+  </head>
+  <body class="body">
+    <header class="header">
+      <h1 class="header__title">Магазин гаджетов</h1>
+      <nav class="header__nav">
+        <ul class="header__list">
+          <li class="header__item">
+            <a href="#" aria-label="Перейти на главную" aria-current="page"
+              >Главная</a
+            >
+          </li>
+          <li class="header__item">
+            <a href="#" aria-label="Смартфоны">Смартфоны</a>
+          </li>
+          <li class="header__item">
+            <a href="#" aria-label="Аксессуары">Аксессуары</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="main">
+      <section class="catalog">
+        <h2 class="catalog__title">Популярные товары</h2>
+        <div class="catalog__cards">
+          <article class="catalog__card" tabindex="0">
+            <img
+              src="./images/s25.webp"
+              alt="Смартфон Galaxy S25"
+              class="catalog__card-image"
+            />
+            <h3 class="catalog__card-title">Galaxy S25</h3>
+            <p class="catalog__card-price">79 999 ₽</p>
+            <button
+              class="catalog__card-button"
+              aria-label="Добавить Galaxy S25 в корзину"
+            >
+              В корзину
+            </button>
+          </article>
+          <article class="catalog__card" tabindex="0">
+            <img
+              src="./images/air.jpg"
+              alt="Наушники AirPods Pro"
+              class="catalog__card-image"
+            />
+            <h3 class="catalog__card-title">AirPods Pro</h3>
+            <p class="catalog__card-price">24 999 ₽</p>
+            <button
+              class="catalog__card-button"
+              aria-label="Добавить AirPods Pro в корзину"
+            >
+              В корзину
+            </button>
+          </article>
+          <article class="catalog__card featured" tabindex="0">
+            <img
+              src="./images/watch.jpg"
+              alt="Смарт-часы Watch Ultra"
+              class="catalog__card-image"
+            />
+            <h3 class="catalog__card-title">Watch Ultra</h3>
+            <p class="catalog__card-price">49 999 ₽</p>
+            <button
+              class="catalog__card-button"
+              aria-label="Добавить Watch Ultra в корзину"
+            >
+              В корзину
+            </button>
+          </article>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <p>&copy; 2025 Интернет-магазин гаджетов</p>
+    </footer>
+  </body>
+</html>

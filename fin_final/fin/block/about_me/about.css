@@ -1,0 +1,49 @@
+.about_me{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1200px;
+    height: 382px;
+    margin-left: var(--margin-base);
+    margin-top: 172px;
+}
+
+.about_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: var(--gap-base);
+    width: 500px;
+    height: 382px;
+}
+
+.text_main {
+    justify-content: center;
+}
+
+.photo_conteiner {
+    display: flex;
+    justify-content: flex-end;
+    width: 400px;
+    height: 382px;
+}
+
+.my_photo1 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    z-index: 10;
+    width: 400px;
+    height: 382px;
+}
+
+.my_photo2 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: -10;
+    width: 400px;
+    height: 382px;
+}
+
+

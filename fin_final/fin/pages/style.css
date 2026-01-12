@@ -1,0 +1,8 @@
+@import url(../fonts/fonts.css);
+@import url(../vendor/normalize.css);
+@import url(../vendor/variables.css);
+
+@import url(../block/fix_header/fix.css);
+@import url(../block/about_me/about.css);
+
+@import url(../block/my_project/projects.css);

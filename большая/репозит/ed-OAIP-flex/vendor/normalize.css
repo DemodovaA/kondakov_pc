@@ -1,0 +1,41 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+p,
+ul,
+ol,
+li,
+dl,
+figure,
+blockquote {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+:root {
+  --primary-color: #0062e1; 
+  --accent-color: #004bad; 
+  --grey-color: #cdcdcd; 
+  --bg-color: #f4f4f4; 
+  --text-color: #202124; 
+  --card-color: #fff; 
+
+  --padding-base: 1.5rem;
+  --margin-base: 2rem;
+
+  --font-family-base: "Roboto", sans-serif;
+  --font-size-base: 1.2rem;
+  --gap-base: 12px;
+  --card-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}

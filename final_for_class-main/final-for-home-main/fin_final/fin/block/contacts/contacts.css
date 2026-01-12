@@ -1,0 +1,123 @@
+.contacts{
+    font-family: "Inter-Regular";
+    margin-top: 80px;
+    margin: 0 auto;
+    margin-left: var(--margin-base);
+    width: 1200px;
+    height: 1022px;
+    margin-bottom: var(--margin-t-b);
+
+    background-color: var(--main-light-color);
+    color: var(--main-text-color);
+}
+
+.contacts_opacity{
+    font-family: "Inter-Regular";
+    font-size: var(--opacity_text_size);
+    text-transform:  uppercase;
+    letter-spacing: 2px;
+    opacity: .7;
+    margin-bottom: 40px;
+}
+
+.contacts_big {
+    font-family: "Inter-Bold";
+    font-size: var(--big_text);
+    margin-bottom: 20px;
+}
+
+.contacts_text{
+   font-family: "Inter-Regular";
+   margin-bottom: 60px;
+}
+
+.contacts_bottom{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 100px;
+}
+
+.Left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: var(--main-add-color);
+    border-radius: 10px;
+    width: 400px;
+    height: 338px;
+    padding: 40px;
+}
+
+
+.right{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    gap: 0;
+    width: 700px;
+    height: 338px;
+}
+
+.form-label::after{
+    content: "*";
+    margin-left: 5px;
+    color: rgb(255, 0, 85)
+}
+
+.contacts-flex{
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
+.form-label{
+    width: 335px;
+    font-family: "Inter-Bold";
+}
+
+.name, .email{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+input{
+    border: 0;
+    background-color: inherit;
+}
+.form-input{
+    border-bottom: 1px solid rgb(0, 0, 0, .25);
+}
+textarea{
+    width: 700px;
+    height: 70px;
+    padding: 0;
+    background-color: inherit;
+}
+.textarea{
+    display: flex;
+    flex-direction: column;
+}
+
+.button2{
+    border: 0;
+    background-color:var(--main-accent-color);
+    color: white;
+    border-radius: 8%;
+    width: 130px;
+    height: 52px;
+}
+
+.pers-data{
+    display: flex;
+    gap: 70px;
+    position: relative;
+    margin-top: 70px;
+}
+
+.bottom-pers-data {
+    color: var(--main-accent-color);
+    border-bottom: 1px solid var(--main-accent-color);
+}

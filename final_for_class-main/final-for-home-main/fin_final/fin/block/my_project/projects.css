@@ -1,0 +1,134 @@
+.portfolio_cont{
+    margin-top: 80px;
+    margin: 0 auto;
+    margin-left: var(--margin-base);
+    width: 1200px;
+    height: 1022px;
+    margin-bottom: var(--margin-t-b);
+
+    background-color: var(--main-light-color);
+    color: var(--main-text-color);
+}
+
+.portfolio_opacity{
+    font-family: "Inter-Regular";
+    font-size: var(--opacity_text_size);
+    text-transform:  uppercase;
+    letter-spacing: 2px;
+    opacity: .7;
+    margin-bottom: 40px;
+}
+
+.big_portfolio {
+    font-family: "Inter-Bold";
+    font-size: var(--big_text);
+    margin-bottom: 20px;
+}
+
+.portfolio_text{
+   font-family: "Inter-Regular";
+   margin-bottom: 60px;
+}
+
+
+.cards__list {
+    z-index: -10;
+    display: grid;
+    grid-template-columns: repeat(4, 286px);
+    grid-template-rows: repeat(5, 150px);
+    row-gap: 18px;
+    column-gap: 20px;
+    /* grid-template-areas: 
+    'header header header'
+    'sidebar main main'
+    'sidebar main main';
+} */
+}
+
+.one{
+    background-image: url(./prom1.png);
+}
+
+.two {
+    background-image: url(./prom2.png);
+}
+
+.tri{
+    background-image: url(./prom3.png);
+}
+
+.four{
+    background-image: url(./prom4.png);
+}
+
+.five{
+    background-image: url(./prom5.png);
+}
+
+.six{
+    background-image: url(./prom6.png);
+}
+.cards_card{
+    color: white;
+    font-family: var(--font-family-base);
+    position: relative;
+    /* z-index: 0; */
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: aliceblue;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.cards_card header{
+    z-index: 2;
+}
+
+.cards_card::before{
+ content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.3);
+    z-index: 1;
+    border-radius: 10px;
+}
+
+
+.large {
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
+.long {
+    grid-column: span 1;
+    grid-row: span 3;
+    
+}
+
+.paragraph{
+    text-transform:  uppercase;
+    letter-spacing: 2px;
+    opacity: .7;
+    z-index: 2;
+}
+
+.button{
+    font-family: var(--font-family-base);
+    font-size: ;
+    background-color: white;
+    height: 52px;
+    width: 130px;
+    border-radius: 5px;
+    gap: var(--gap-base);
+    border: 0;
+    z-index: 2;
+}
+

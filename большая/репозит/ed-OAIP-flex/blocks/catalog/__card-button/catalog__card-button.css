@@ -1,0 +1,11 @@
+.catalog__card-button {
+    padding: .7rem;
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+
+.catalog__card-button:hover {
+    background-color: var(--accent-color);
+}

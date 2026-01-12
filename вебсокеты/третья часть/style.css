@@ -1,0 +1,51 @@
+
+@keyframes rainbow {
+
+    0% {
+        background-color: rgb(167, 60, 60);
+    }
+    16.4% {background-color: rgb(218, 148, 69);}
+    33.2% {background-color: rgb(219, 207, 38);}
+    50% {background-color: rgb(55, 226, 39);}
+    66.9% {background-color: rgb(235, 21, 199);}
+    83.1% {background-color: rgb(19, 32, 218);}
+    100% {background-color: rgb(60, 67, 167);}
+} 
+
+.rainbow {
+width: 242px;
+height: 242px;
+border-radius: 10px;
+
+animation: rainbow 7s linear infinite ;
+}
+
+@keyframes glow{
+    from {
+        background-color: black;
+    }
+    to {
+        background-color: yellow;
+    }
+}
+
+.light {
+    width: 142px;
+    height: 152px;
+    background-color: black;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 10px;
+
+    animation: glow 1s linear infinite;
+    animation-play-state: running;
+}
+/* 
+.light:nth-child(2) {
+    animation-delay: 1s;
+    /* animation-fill-mode: forwards; */
+}
+
+.light:nth-child(2) {
+    animation-delay: 2s; */
+}

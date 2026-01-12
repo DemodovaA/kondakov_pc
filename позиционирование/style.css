@@ -1,0 +1,28 @@
+/* .container {
+    position: relative;
+    border: 2px solid red;
+    height: 200px;
+}
+
+.box{
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    padding: 1rem;
+    background-color: aquamarine;
+}
+
+.relative {
+    position: relative;
+    background-color: blueviolet;
+    color: aliceblue;
+
+    top: 20px;
+    left: 20px;
+} */
+
+h1 {
+    text-align: center;
+    color: aliceblue;
+    padding-top: 250px;
+}

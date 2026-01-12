@@ -1,0 +1,29 @@
+@import url("../vendor/normalize.css");
+@import url("../fonts/fonts.css");
+
+@import url('../blocks/body/body.css');
+@import url('../blocks/header/header.css');
+@import url('../blocks/header/__title/heaser__title.css');
+@import url('../blocks/header/__list/header__list.css');
+
+@import url('../blocks/catalog/__title/catalog.css');
+@import url('../blocks/catalog/__cards/catalog__cards.css');
+@import url('../blocks/catalog/__card/catalog__card.css');
+@import url('../blocks/catalog/__card-image/catalog__card-image.css');
+@import url('../blocks/catalog/card-title/catalog__catd-title.css');
+@import url('../blocks/catalog/__card-button/catalog__card-button.css');
+
+@media (max-width: 600px) {
+    .catalog__cards {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+ .catalog__card {
+    flex: 1 0 auto;
+ }
+
+ ..catalog__card.featured {
+    order: -1;
+ }

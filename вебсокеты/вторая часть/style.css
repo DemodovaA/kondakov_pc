@@ -1,0 +1,23 @@
+@keyframes loading {
+    from {
+        rotate: 0deg;
+    }
+    to {
+        rotate: 360deg;
+    }
+}
+
+.loader { 
+    width: 242px;
+    height: 242px;
+    border: 10px solid brown;
+    border-radius: 50%;
+    border-block-end-color: black;
+    src: url(/904b8f47-539b-4b4f-a624-fdba8c3b2efa.jpeg);
+    animation-name: loading;
+    animation-duration: 1.5s;
+    /* animation-timing-function: linear; */
+    animation-iteration-count: 3;
+    animation-direction: reverse;
+    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
